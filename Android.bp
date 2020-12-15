@@ -2693,7 +2693,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/camera.qcom.so",
             ],
             shared_libs: [
-                "libc29",
+                "libcomparetf2_shim",
+                "libc++",
                 "libcutils",
                 "liblog",
                 "libcdsprpc",
@@ -4049,7 +4050,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libvidhance.so",
             ],
             shared_libs: [
-                "libc29",
+                "libcomparetf2_shim",
                 "libGLESv3",
                 "libEGL",
                 "libGLESv2",
